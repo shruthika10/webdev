@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.shru {
+    background-color: rgb(37, 215, 218);
+    color: white;
+    height: 25vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+.one {
+    background-color: red;
+}
+.three {
+    background-color: blue;
+}
