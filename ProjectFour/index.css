@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one{
+    background-color: black;
+    height: 100vh;
+    padding-top: 30px;
+}
+
+.shru{
+    background-color: orange;
+    border: 5px solid red
+}
+.two{
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+}
+
+.one .two:nth-child(2){
+    margin-top: 50px;
+}
+
+.one .two:nth-child(3){
+    height: 60vh;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 70px;
+}
